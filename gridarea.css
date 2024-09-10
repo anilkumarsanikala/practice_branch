@@ -1,0 +1,44 @@
+.one{
+    display: grid;
+    grid-template-areas: "a a a a" "b b c c" " d d d d" "e e f f " "g g g g " "h h h h ";
+
+}
+.child{
+    /* background-color: skyblue; */
+height: 50px;
+display: grid;
+/* align-content: center; */
+place-items: center;
+}
+.a{
+    background-color: khaki;
+    grid-area: a;
+}
+.b{
+    background-color: rgb(255, 80, 83);
+    grid-area: b;
+}
+.c{
+    background-color: coral;
+    grid-area: c;
+}
+.d{
+    background-color: gold;
+    grid-area: d;
+}
+.e{
+    background-color: hotpink;
+    grid-area: e;
+}
+.f{
+    background-color: yellow;
+    grid-area: f;
+}
+.g{
+    background-color: red;
+    grid-area: g;
+}
+.h{
+    background-color: green;
+    grid-area: h;
+}
